@@ -3,13 +3,6 @@
 	"title": "Appeal_Cards",
 	"type": "module",
 	"description": "A simple module which adds a user Specific Appeal Card.",
-	  "includes": [
-    "./languages/**",
-    "./scripts/**",
-    "./styles/**",
-    "./templates/**",
-    "./module.json",
-	],
 	"author": "ZZCOMICS",
 	"authors": [
 		{
@@ -29,7 +22,6 @@
 	"styles": [
 		"styles/Appeal_Card.css"
 	],
-	
 	"version": "1",
 	"minimumCoreVersion": "0.7.9",
 	"compatibleCoreVersion": "10",
