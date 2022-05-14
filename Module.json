@@ -11,7 +11,8 @@
 	}],
 	"dependencies": [],
 	"socket": false,
-	"download": "https://raw.githubusercontent.com/cyy1133/Appeal_Cards/master/Appeal_Cards.zip",
+	"url": "https://github.com/cyy1133/Appeal_Cards",
+	"download": "https://github.com/cyy1133/Appeal_Cards/archive/refs/heads/main.zip",
 	"manifest": "https://raw.githubusercontent.com/cyy1133/Appeal_Cards/master/Module.json",
 	"license": "LICENSE",
 	"styles": [
