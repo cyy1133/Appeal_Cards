@@ -2,7 +2,7 @@
 	"name": "Appeal_Cards",
 	"title": "Appeal_Cards",
 	"description": "Allows tokens to follow other tokens.",
-	"version": "1.5.2",
+	"version": "1.5",
 	"minimumCoreVersion": "9",
 	"compatibleCoreVersion": "9",
 	"author": "ZZCOMICS",
@@ -23,7 +23,7 @@
 	],
 	"socket": false,
 	"url": "https://github.com/cyy1133/Appeal_Cards",
-	"download": "https://github.com/cyy1133/Appeal_Cards/archive/1.4.zip",
+	"download": "https://github.com/cyy1133/Appeal_Cards/archive/1.5.zip",
 	"manifest": "https://github.com/cyy1133/Appeal_Cards/releases/latest/download/module.json",
 	"library": false
 }
