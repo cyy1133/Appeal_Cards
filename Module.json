@@ -2,7 +2,7 @@
 	"name": "Appeal_Cards",
 	"title": "Appeal_Cards",
 	"type": "module",
-	"description": "A simple module which adds a user Specific Appeal Card.",
+	"description": "",
 	"author": "ZZCOMICS",
 	"authors": [
 		{
@@ -22,9 +22,12 @@
 	"styles": [
 		"styles/Appeal_Card.css"
 	],
+	"socket": false,
 	"version": "1",
-	"minimumCoreVersion": "0.7.9",
-	"compatibleCoreVersion": "10",
+    "minimumCoreVersion": "9",
+    "compatibleCoreVersion": "10",
 	"dependencies": [],
+	"library": false,
+	"manifest": "https://raw.githubusercontent.com/cyy1133/Appeal_Cards/master/Module.json",
 	"download": "https://raw.githubusercontent.com/cyy1133/Appeal_Cards/master/Appeal_Cards.zip"
 }
