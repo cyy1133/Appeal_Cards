@@ -1,16 +1,23 @@
 {
-	"name": "Appeal_Cards",
-	"title": "Appeal_Cards",
-	"type": "module",
-	"description": "",
-	"author": "ZZCOMICS",
+    "name": "Appeal_Cards",
+    "title": "Appeal_Cards",
+    "description": "Allows tokens to follow other tokens.",
+    "version": "1.5.2",
+    "minimumCoreVersion": "9",
+    "compatibleCoreVersion": "9",
+    "author": "ZZCOMICS",
 	"authors": [
-		{
-			"name": "ZZCOMICS"
-		}
-	],
-	"scripts": [
-		"scripts/Appeal_Card.js"
+	  {
+      	"name": "ZZCOMICS",
+	  }
+    ],
+    "dependencies":[],
+    "socket": false,
+    "download": "https://raw.githubusercontent.com/cyy1133/Appeal_Cards/master/Appeal_Cards.zip",
+    "manifest": "https://raw.githubusercontent.com/cyy1133/Appeal_Cards/master/Module.json",
+    "license": "LICENSE",
+	"styles": [
+		"styles/Appeal_Card.css"
 	],
 	"languages": [
 		{
@@ -19,15 +26,9 @@
 		  "path": "languages/en.json"
 		}
 	],
-	"styles": [
-		"styles/Appeal_Card.css"
+	"scripts": [
+		"scripts/Appeal_Card.js"
 	],
-	"socket": false,
-	"version": "1",
-    "minimumCoreVersion": "9",
-    "compatibleCoreVersion": "10",
-	"dependencies": [],
-	"library": false,
-	"manifest": "https://raw.githubusercontent.com/cyy1133/Appeal_Cards/master/Module.json",
-	"download": "https://raw.githubusercontent.com/cyy1133/Appeal_Cards/master/Appeal_Cards.zip"
+    "packs": [],    
+    "library": false
 }
