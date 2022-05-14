@@ -1,0 +1,27 @@
+{
+	"name": "Appeal_Cards",
+	"title": "Appeal_Cards",
+	"description": "A simple module which adds a user Specific Appeal Card.",
+	"author": "ZZCOMICS",
+	"authors": [
+		{
+			"name": "ZZCOMICS"
+		}
+	],
+	"scripts": [
+		"scripts/Appeal_Card.js"
+	],
+	"languages": [
+		{
+		  "lang": "en",
+		  "name": "English",
+		  "path": "languages/en.json"
+		}
+	],
+	"styles": [
+		"styles/Appeal_Card.css"
+	],
+	"version": "1",
+	"minimumCoreVersion": "0.7.9",
+	"compatibleCoreVersion": "10"
+}

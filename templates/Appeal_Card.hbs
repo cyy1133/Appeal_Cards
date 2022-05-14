@@ -1,0 +1,17 @@
+<form>
+  <div class="todo-list flexcol">
+    {{#each appeals}}
+    <ul class="flexbox" data-id="{{id}}">
+      <input type="checkbox" name="{{id}}.isDone" title="{{localize "TODO-LIST.mark-done"}}" data-dtype="Boolean" {{checked isDone}} />
+
+      <input type="text" value="{{label}}" name="{{id}}.label" data-dtype="String" />
+      <textarea  name="{{id}}.desc" rows="3" cols="20" data-dtype="String" wrap="hard">{{desc}}</textarea>
+      <button type="button" title="{{localize "TODO-LIST.delete-todo"}}" data-action="delete" class="flex0 todo-list-icon-button" visibility="none">
+        <i class="fas fa-trash"></i>
+      </button>
+    </ul>
+    {{/each}}
+  </div>
+
+  <button type="button" data-action="create"><i class="fas fa-plus"></i> {{localize "TODO-LIST.add-todo"}}</button>
+</form>
