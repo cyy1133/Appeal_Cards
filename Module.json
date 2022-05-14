@@ -16,15 +16,15 @@
 	"manifest": "https://raw.githubusercontent.com/cyy1133/Appeal_Cards/master/Module.json",
 	"license": "LICENSE",
 	"styles": [
-		"styles/Appeal_Card.css"
+		"./styles/Appeal_Card.css"
 	],
 	"languages": [{
 		"lang": "en",
 		"name": "English",
-		"path": "languages/en.json"
+		"path": "./languages/en.json"
 	}],
 	"esmodules": [
-		"scripts/Appeal_Card.js"
+		"./scripts/Appeal_Card.js"
 	],
 	"library": false
 }
