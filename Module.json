@@ -9,22 +9,21 @@
 	"authors": [{
 		"name": "ZZCOMICS"
 	}],
-		"license": "LICENSE",
+	"license": "LICENSE",
 	"styles": [
-		"path":"./styles/Appeal_Card.css"
+		"styles/Appeal_Card.css"
 	],
 	"languages": [{
 		"lang": "en",
 		"name": "English",
-		"path": "./languages/en.json"
+		"path": "languages/en.json"
 	}],
 	"scripts": [
-		"path":"./scripts/Appeal_Card.js"
+		"scripts/Appeal_Card.js"
 	],
 	"socket": false,
 	"url": "https://github.com/cyy1133/Appeal_Cards",
 	"download": "https://github.com/cyy1133/Appeal_Cards/archive/refs/heads/main.zip",
 	"manifest": "https://raw.githubusercontent.com/cyy1133/Appeal_Cards/master/module.json",
-
 	"library": false
 }
